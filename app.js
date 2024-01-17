@@ -7,8 +7,4 @@ var myObj = {
     age: 33,
     member: true
 };
-/* console.log(myObj); */
-// Fördröj utskriften av objektet med 1 sekund (1000 millisekunder)
-setTimeout(function () {
-    console.log(myObj);
-}, 1000);
+console.log(myObj);
